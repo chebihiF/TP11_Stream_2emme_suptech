@@ -16,6 +16,15 @@ public class Employee {
         );
     }
 
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", salary=" + salary +
+                '}';
+    }
+
     public Employee(String name, String email, double salary) {
         this.name = name;
         this.email = email;
